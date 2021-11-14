@@ -3,4 +3,4 @@ spring:
     ansi:
       enabled: always
   messages:
-    basename: messages
+    basename: messages, errors

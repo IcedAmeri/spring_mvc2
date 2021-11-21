@@ -4,3 +4,8 @@ spring:
       enabled: always
   messages:
     basename: messages, errors
+
+server:
+  servlet:
+    session:
+      tracking-modes: cookie
